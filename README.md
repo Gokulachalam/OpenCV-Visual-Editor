@@ -6,6 +6,7 @@ This Flask application allows users to upload an image and apply various image p
 
 ## Demo 
 
+![opencv_visual_editor](https://github.com/Gokulachalam/OpenCV-Visual-Editor/assets/89055461/7e3b56c8-0bfd-4df8-ab68-44ecd8c14f4a)
 
 
 
@@ -18,7 +19,7 @@ This Flask application allows users to upload an image and apply various image p
 1. Clone the repository:
 
     ```bash
-    https://github.com/Gokulachalam/OpenCV-Visual-Editor.git
+    git clone https://github.com/Gokulachalam/OpenCV-Visual-Editor.git
     cd image_pro
     ```
 
@@ -114,4 +115,4 @@ If you would like to contribute to this project, please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License 
