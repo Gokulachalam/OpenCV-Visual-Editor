@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenCV Visual Editor</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-color: #000; /* Black background */
+            color: #ffd700; /* Gold text color */
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em; /* Adjust title font size */
+        }
+
+        form {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            background-color: #333; /* Dark gray form background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 1.2em; /* Adjust label font size */
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            font-size: 1em; /* Adjust input font size */
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ffd700; /* Gold button color */
+            color: #000; /* Black button text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em; /* Adjust button font size */
+        }
+
+        img {
+            display: block;
+            margin-top: 20px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>OpenCV Visual Editor</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="file">Choose a file:</label>
+        <input type="file" id="file" name="file" accept="image/*" required>
+        <label for="operation">Choose an operation:</label>
+        <select id="operation" name="operation" required>
+            <option value="bg_removal">Remove Background</option>
+            <option value="clarity_enhancement">Clarity Enhancement</option>
+            <option value="color_enhancement">Color Enhancement</option>
+            <option value="object_removal">Object Removal</option>
+            <option value="black_and_white">Black and White</option>
+            <option value="invert_colors">Invert Colors</option>
+            <option value="oil_painting_effect">Oil Painting Effect</option>
+            <option value="blur_background">Blur Background</option>
+        </select>
+        <button type="submit">Process Image</button>
+    </form>
+    {% if result_image %}
+        <img src="{{ result_image }}" alt="Result">
+    {% endif %}
+</body>
+</html>
