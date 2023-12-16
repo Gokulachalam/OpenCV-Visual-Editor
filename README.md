@@ -9,6 +9,9 @@ This Flask application allows users to upload an image and apply various image p
 ![opencv_visual_editor](https://github.com/Gokulachalam/OpenCV-Visual-Editor/assets/89055461/7e3b56c8-0bfd-4df8-ab68-44ecd8c14f4a)
 
 
+## Development Environment
+
+This project is developed and tested on a Debian 12 Linux platform
 
 
 
