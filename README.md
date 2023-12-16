@@ -3,13 +3,23 @@
 
 This Flask application allows users to upload an image and apply various image processing operations. It uses OpenCV for image manipulation and PIL for handling image data.
 
+
+## Demo 
+
+
+
+
+
+
+
+
 ## Getting Started
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/image-processing-flask-app.git
-    cd image-processing-flask-app
+    https://github.com/Gokulachalam/OpenCV-Visual-Editor.git
+    cd image_pro
     ```
 
 2. Install the required dependencies:
@@ -36,16 +46,61 @@ This Flask application allows users to upload an image and apply various image p
 
 4. The processed image will be displayed on the page.
 
-## Supported Operations
+## Features 
 
-- **Background Removal**: Remove the background from the image.
-- **Clarity Enhancement**: Enhance the clarity of the image.
-- **Color Enhancement**: Enhance the color saturation of the image.
-- **Object Removal**: Remove specified objects based on contour area.
-- **Black and White**: Convert the image to black and white.
-- **Invert Colors**: Invert the colors of the image.
-- **Oil Painting Effect**: Apply an oil painting effect to the image.
-- **Blur Background**: Blur the background of the image.
+## Features
+
+### Image Processing Operations
+
+1. **Background Removal:**
+   - Description: Removes the background of an image based on color thresholding.
+   - Usage: Select "bg_removal" as the operation.
+
+2. **Clarity Enhancement:**
+   - Description: Enhances the clarity of an image using Laplacian filtering.
+   - Usage: Select "clarity_enhancement" as the operation.
+
+3. **Color Enhancement:**
+   - Description: Enhances the color saturation of an image in the HSV color space.
+   - Usage: Select "color_enhancement" as the operation.
+
+4. **Object Removal:**
+   - Description: Removes specified objects from an image based on contour area.
+   - Usage: Select "object_removal" as the operation.
+
+5. **Black and White Conversion:**
+   - Description: Converts the image to black and white.
+   - Usage: Select "black_and_white" as the operation.
+
+6. **Invert Colors:**
+   - Description: Inverts the colors of the image.
+   - Usage: Select "invert_colors" as the operation.
+
+7. **Oil Painting Effect:**
+   - Description: Applies an oil painting effect to the image.
+   - Usage: Select "oil_painting_effect" as the operation.
+
+8. **Blur Background:**
+   - Description: Blurs the background of an image.
+   - Usage: Select "blur_background" as the operation.
+
+### File Upload and Processing
+
+- **File Upload:**
+  - Description: Users can upload an image file for processing.
+
+- **Result Download:**
+  - Description: Processed images can be downloaded by users.
+
+### Web Interface
+
+- **Interactive Web Interface:**
+  - Description: Users can interact with the application through a web interface.
+
+---
+
+Feel free to customize the descriptions and details based on the specific behavior and usage of your application. This section gives users a clear understanding of what features are available and how to use them.
+
 
 ## Contributing
 
