@@ -50,7 +50,7 @@ This project is developed and tested on a Debian 12 Linux platform
 
 4. The processed image will be displayed on the page.
 
-## Features 
+
 
 ## Features
 
