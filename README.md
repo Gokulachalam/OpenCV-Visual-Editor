@@ -11,7 +11,7 @@ This Flask application allows users to upload an image and apply various image p
 
 ## Development Environment
 
-This project is developed and tested on a Debian 12 Linux platform
+This project is developed and tested on a Debian 12 Linux paltform
 
 
 
